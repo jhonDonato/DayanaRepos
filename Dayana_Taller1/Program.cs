@@ -37,6 +37,28 @@ namespace Dayana_Taller1
                 }
 
             }
+            for (int O = 1; O <= cantidad; O++)
+            {
+                Console.Write("Ingresa la nota del alumno " + O + ": ");
+                double nota = double.Parse(Console.ReadLine());
+                if (nota < 0 && nota > 20)
+                {
+                    Console.WriteLine("Nota no válida, debe ser entre 0 y 20.");
+                }
+                if (nota < 12)
+                {
+                    contarMenores12++;
+                }
+                if (nota > notaMayor)
+                {
+                    notaMayor = nota;
+                }
+                if (nota < notaMenor)
+                {
+                    notaMenor = nota;
+                }
+
+            }
             Console.WriteLine("\nResultados:");
             Console.WriteLine("Alumnos con nota menor a 12: " + contarMenores12);
             Console.WriteLine("Mayor nota: " + notaMayor);
