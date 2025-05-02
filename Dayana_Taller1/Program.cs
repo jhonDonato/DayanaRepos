@@ -41,6 +41,10 @@ namespace Dayana_Taller1
             Console.WriteLine("Alumnos con nota menor a 12: " + contarMenores12);
             Console.WriteLine("Mayor nota: " + notaMayor);
             Console.WriteLine("Menor nota: " + notaMenor);
+            Console.WriteLine("SEGUNDA PRUEBA GAAAAA");
+            Console.WriteLine("SEGUNDA PRUEBA GAAAAA");
+            Console.WriteLine("SEGUNDA PRUEBA GAAAAA");
+            Console.WriteLine("SEGUNDA PRUEBA GAAAAA");
 
             Console.ReadKey();
         }
